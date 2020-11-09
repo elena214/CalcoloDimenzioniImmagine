@@ -23,7 +23,10 @@ namespace CalcoloDimenzioniImmagine
                     calcolo = ((altezzaImmagine * larghezzaImmagine) * 2) / 1024;
                     Console.WriteLine($"L'immagine occupa {calcolo} KB");
                     break;
-                
+                case "8":
+                    calcolo = ((altezzaImmagine * larghezzaImmagine) * 1) / 1024;
+                    Console.WriteLine($"L'immagine occupa {calcolo} KB");
+                    break;
             }
         }
     }
